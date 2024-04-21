@@ -111,11 +111,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -157,6 +165,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AdvancedTab: 1
+    - _AlbedoMapIntensity: 1
     - _AlphaClipping: 0
     - _AlphaCutoff: 0.5
     - _Anisotropy: 0
@@ -165,7 +174,9 @@ Material:
     - _ArtisticProjection: 1
     - _Blend: 0
     - _BlendDst: 0
+    - _BlendDstAlpha: 0
     - _BlendSrc: 1
+    - _BlendSrcAlpha: 1
     - _Brightness: 1
     - _BumpScale: 1
     - _ColorGrading: 0
@@ -193,6 +204,7 @@ Material:
     - _GlossyReflections: 1
     - _GoochRampIntensity: 0.5
     - _HatchingMapScale: 1
+    - _IndirectFade: 1
     - _Initialized: 1
     - _InputTab: 1
     - _Iridescence: 0
@@ -216,6 +228,8 @@ Material:
     - _OptionsTab: 1
     - _Outline: 1
     - _OutlineData: 0
+    - _OutlineFadeMax: 2
+    - _OutlineFadeMin: 0.25
     - _OutlineNoise: 0
     - _OutlineSize: 5
     - _Parallax: 0.02
@@ -272,3 +286,4 @@ Material:
     - _RimDarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 0.20312497, g: 0.20312497, b: 0.20312497, a: 1}
     - _VertexAnimationFrequency: {r: 2.5, g: 2.5, b: 2.5, a: 1}
+  m_BuildTextureStacks: []
